@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests" verbose="3">
+
+<listeners>
+	<listener
+		class-name="com.ExtentReports.ExtentReporterNG" />
+</listeners>
+
+	<test name="my crm test chrome" parallel="methods" thread-count="5">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.mytests.LoginPageTest"/>
+			<class name="com.mytests.HomePageTest"/>
+		</classes>
+	</test>
+	
+	<!-- <test name="my crm test FF" parallel="methods" thread-count="5">
+	<parameter name="browser" value="FF" />
+		<classes>
+			<class name="com.mytests.LoginPageTest"/>
+		</classes>
+	</test> -->
+	
+</suite>

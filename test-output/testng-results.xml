@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="38599" started-at="2021-09-11T05:14:22Z" finished-at="2021-09-11T05:15:01Z">
+    <groups>
+    </groups>
+    <test name="my crm test chrome" duration-ms="38599" started-at="2021-09-11T05:14:22Z" finished-at="2021-09-11T05:15:01Z">
+      <class name="com.mytests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mytests.LoginPageTest@4667ae56]" name="setUp" is-config="true" duration-ms="8702" started-at="2021-09-11T01:14:38Z" finished-at="2021-09-11T01:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.mytests.LoginPageTest@4667ae56]" name="verifyLoginPageTitleTest" duration-ms="18" started-at="2021-09-11T01:14:47Z" finished-at="2021-09-11T01:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mytests.LoginPageTest@4667ae56]" name="tearDown" is-config="true" duration-ms="863" started-at="2021-09-11T01:14:47Z" finished-at="2021-09-11T01:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mytests.LoginPageTest@4667ae56]" name="setUp" is-config="true" duration-ms="9050" started-at="2021-09-11T01:14:48Z" finished-at="2021-09-11T01:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifydoLoginTest()[pri:2, instance:com.mytests.LoginPageTest@4667ae56]" name="verifydoLoginTest" duration-ms="2854" started-at="2021-09-11T01:14:57Z" finished-at="2021-09-11T01:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydoLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mytests.LoginPageTest@4667ae56]" name="tearDown" is-config="true" duration-ms="1173" started-at="2021-09-11T01:15:00Z" finished-at="2021-09-11T01:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytests.LoginPageTest -->
+      <class name="com.mytests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mytests.HomePageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="10233" started-at="2021-09-11T01:14:22Z" finished-at="2021-09-11T01:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.mytests.HomePageTest@77cd7a0]" name="verifyHomePageTitleTest" duration-ms="4773" started-at="2021-09-11T01:14:32Z" finished-at="2021-09-11T01:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mytests.HomePageTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="884" started-at="2021-09-11T01:14:37Z" finished-at="2021-09-11T01:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytests.HomePageTest -->
+    </test> <!-- my crm test chrome -->
+  </suite> <!-- Test Suite -->
+</testng-results>

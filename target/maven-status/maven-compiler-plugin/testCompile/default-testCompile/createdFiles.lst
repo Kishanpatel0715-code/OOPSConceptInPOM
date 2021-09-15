@@ -1,0 +1,3 @@
+com\mytests\BaseTest.class
+com\mytests\HomePageTest.class
+com\mytests\LoginPageTest.class
